@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:100,300,400,500,700,800,900&display=swap&subset=vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:500&display=swap&subset=vietnamese');
+*{
+	margin:0;
+	padding:0;
+	font-family:arial, time news romans, san serif;
+	font-size:10px;
+}
+#wrapper{
+	width:1000px;
+	min-height:500px;
+	background-color:black ;
+	margin: auto;
+}
+#mainheader{
+	height:170px;
+	background-color:#f79cdc;
+		
+}
+h1{
+	background-color:#f64ac2;
+	height:3em;
+	text-align:center;
+	line-height:150%;
+	color:white;
+}
+
+.simplehor li
+{
+	
+	list-style-type:none;
+	float :left;
+	width:164.6px;
+	height:40px;
+	position:relative;
+	
+}/* li và a của tab ẩn */
+.menu li
+{
+
+	list-style-type:none;
+	float :left;
+	width:164.6px;
+	height:40px;
+	position:relative;
+	
+}
+.menu a
+{   
+	
+	color:red;
+	margin-left:15px;
+	text-decoration:none;
+	text-align:center;
+	line-height:450%;
+	display:block;
+	height:100%
+	
+}
+
+
+/* kết thúc khai báo li và a của tab ẩn */
+.simplehor a
+{   
+	background-position:-260px -150px;
+	background-image:url(../IMG/background5.png);
+	margin-left:15px;
+	text-align:center;
+	text-decoration:none;
+	line-height:450%;
+	display:block;
+	height:100%
+	
+}
+.simplehor a:hover
+{
+		background-position:-132px -455px;
+}
+/* tạo tab ẩn */
+
+.simplehor li:hover ul{
+	visibility:visible;	
+}
+
+.simplehor li >ul
+{	bottom:-30px;
+	visibility:hidden;
+}
+
+
+.cls
+{
+	clear:both;
+}
+/*------------------ kết thúc main header -----------------*/
+
+/* tạo quảng cáo cho trang web*/
+#qc{
+	height:170px;
+	background-color:#f8f799;
+}
+/* --------------kết thúc tạo quảng cáo-------------------*/
+/*best*/
+
+#best{
+	height:250px;
+	background-color:#eeaeca;
+}
+h5
+{
+	color:red;
+	text-align:left;
+	line-height:30px;
+	height:30px;
+	background-color:#f2ff46;
+}
+.bestitem:hover{
+	transform:scale(1.15);
+	box-shadow:0 25px 40px rgba(0,0,0,.5);
+}
+.bestitem {
+	
+	height:155px;
+	width:230px;
+	background-color:white;
+	margin:10px;
+	float:left;
+	margin-top:30px;
+}
+
+/*----------kết thúc best-----------------*/
+
+
+/*--------------- tạo section-----------*/
+section{
+	min-height:555px;
+	background-color:#fc466b;
+	
+}
+.blackclover {
+	height:465px;
+	width:210px;
+	background-color:white;
+	margin:20px;
+	float:left;
+	margin-top:15px;
+	margin-bottom:50px;
+}
+/*.selectionitem {
+	height:465px;
+	width:210px;
+	background-color:white;
+	margin:20px;
+	float:left;
+	margin-top:15px;
+	margin-bottom:50px;
+}*/
+.blackclover li
+{	list-style-type:none;
+	height:465px;
+	width:210px;
+}
+
+.onepiece li{
+height:465px;
+	width:210px;
+	background-color:white;
+	margin:20px;
+	float:left;
+	margin-top:15px;
+	margin-bottom:50px;
+}
+.onepiece li
+{	list-style-type:none;
+	height:465px;
+	width:210px;
+}
+.optionitem{
+	height:448px;
+	width:210px;
+	background-color:white;
+	margin:20px;
+	float:left;
+	margin-top:15px;
+}
+.first h2{
+	background-color:#f33a54;
+	color:white;
+	height:30px;
+	text-align:left;
+	line-height:300%;
+}
+.secheader{
+	text-align:left;
+	line-height:250%;
+	width:800px;
+	color:white;
+	background-color:#e54747;
+}
+/*----------------kết thúc section-------------*/
+
+/*---------------- tạo content---------------*/
+#content
+{
+	min-height:1500px;
+	background-color:white;
+}
+/* phần left*/
+#left
+{ 
+	width:800px;
+	height:auto;
+	background-color:blue;
+	float:left;
+}
+
+
+.leitem{
+	height:350px;
+	width:798px;
+	background-color:white;
+	border:1px dotted red;
+ 
+}
+.leitem ul li
+{
+	float:left;
+	position:relative;
+	
+}
+.leitem{
+	margin:auto;
+	width:798px;
+	overflow:hidden;
+
+}
+.leitem ul{
+	float:left;
+	padding:0;
+	width:4000px;
+	list-style:none;
+	position:relative;
+	animation:chuyendong 30s ease-in-out infinite;
+	
+}
+
+@keyframes chuyendong
+{
+	0% {left:0px;}
+	25%{left:-798px;}
+	50%{left:-1596px;}
+	75%{left:-2394px;}
+	100%{left:-3192px;}
+
+	
+}
+.leitem ul:hover{
+	animation-play-state:paused;
+}
+.cls{
+	clear:both;
+}
+
+
+#sec{
+	width:800px;
+	background-color:#31c5ef;
+
+	
+}
+h4{
+	color:white;
+	height:20px;
+	text-align:left;
+	line-height:250%;
+}
+.leftitem{
+	width:246px;
+	height:536px;
+	background:#fde886;
+	margin:10px;
+	float:left;
+}
+.leftitem:hover{
+	transform:scale(1.05);
+	box-shadow:0 25px 40px rgba(0,0,0,.5);
+}
+/*---------------------kết thúc tạo left--------------------*/
+/*phân right*/
+
+
+h3
+{ 
+margin-left:10px;
+	color:red;
+	text-align:left;
+	line-height:200%;
+	background-color:pink;
+	height:20px;
+}
+#right{
+	width:200px;
+	height:auto;
+	background-color: white;
+	float:left;	
+}
+.ritem{
+	margin-left:10px;
+	width:190px;
+	height:auto;
+
+	float:left;
+}
+
+
+
+
+/* flyout*/
+
+.flyout {
+		margin-left:10px;
+}
+
+.flyout li
+{
+	 background-color:pink;
+	list-style-type:none;
+	float :left;
+	width:180px;
+	height:42px;
+	position:relative;
+}
+.flyout a
+{ 
+	font-size:10px;
+	color:red;
+	background-position:-1500px -150px;
+	background-image:url(../IMG/background5.png);
+	text-align:left;
+	text-decoration:none;
+	line-height:350%;
+	border:2px outset red ;
+	display:block;
+	height:100%
+}
+.flyout a:hover
+{
+		
+		background-position:-950px -150px;
+}
+.cls
+{
+	clear:both;
+}
+.flyout li ul
+{
+	position:absolute;
+	right:181px;
+	top:0px;
+	visibility:hidden;
+}
+.flyout li:hover ul{
+	visibility:visible;	
+}
+ul.thumuc li{
+	width:150px;
+	background-color: #00ff36;
+}
+/* các tab liên hệ */
+.binhchon
+{
+	font-size:15px;
+	text-align:center;
+	line-height:250%;
+	border-top:1px solid red;
+	border-left:1px solid red;
+	margin-top:15px;
+	margin-left:10px;
+	height:250px;
+	width:190px;
+	background-color:f9cee1;
+	float:left;
+}
+.hotro{
+	margin-top:3px;
+	font-size:15px;
+	border-left:1px solid red;
+	border-bottom:1px solid red;
+	margin-left:10px;
+	height:250px;
+	width:190px;
+	background-color:f9cee1;
+	text-align:center;
+	line-height:250%;
+	float:left;
+}
+/* liên hệ hỗ trợ*/
+.lienhe
+{	
+	color:red;
+	height:20px;
+	width:50px;
+	list-style-type:none;
+	background-color:yellow;
+	position:relative;
+	margin-left:75px;
+}
+.lienhe a:hover{
+	transform:scale(1.25);
+	box-shadow:0 25px 40px rgba(0,0,0,.5);
+}
+.lienhe a
+{  color:red;
+	text-decoration:none;
+	text-align:center;
+	line-height:200%;
+	display:block;
+	height:100%
+	
+}
+h6
+{
+	color:red;
+}
+.cls{
+	clear:both;
+}
+/*--------------------*/
+
+.cls{
+	clear:both;
+}
+
+.cls{
+	clear:both;
+}
+.anhdong{
+	width:130px;
+	height:135px;
+	background-image: url(../IMG/anhdong5.gif);
+	background-repeat: no-repeat;
+	position:absolute;
+	right:0px;
+	top:0px;
+	animation-name:anhdong;
+	animation-duration: 30s;
+}
+@keyframes anhdong{
+	margin-left:20px;
+	0%{right: 0px;top: -10px;}
+	
+	
+}
+footer
+{
+	height:40px;
+	width:1000px;
+	background-color:#2437f1;
+}
+/*----------------------------------------*/
+
+
+
+
+
+
+
